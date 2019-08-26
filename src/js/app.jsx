@@ -12,6 +12,11 @@ const details=[
         short: "NR",
         firstname:"Naveen",
         lastname:"Reddy"
+    },
+    {
+        short: "BN",
+        firstname:"Bora",
+        lastname:"Naveen"
     }
 ]
 class App extends React.Component
@@ -25,10 +30,7 @@ class App extends React.Component
             </div>;
             
     }
-    componentDidMount() {
-        console.log(details);
-        
-    }
+   
 }
 ReactDOM.render(<App />,document.getElementById('root'));
 
