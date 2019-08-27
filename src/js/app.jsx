@@ -6,17 +6,20 @@ const details=[
     {
     short: "NB",
     firstname:"Naveen",
-    lastname:"Bora"
+    lastname:"Bora",
+    index:0
     },
     {
         short: "NR",
         firstname:"Naveen",
-        lastname:"Reddy"
+        lastname:"Reddy",
+        index:1
     },
     {
         short: "BN",
         firstname:"Bora",
-        lastname:"Naveen"
+        lastname:"Naveen",
+        index:2
     }
 ]
 class App extends React.Component
